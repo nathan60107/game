@@ -1,0 +1,155 @@
+question 6 Game
+input glasshouse.in
+output glasshouse.out
+module grader
+timelimit 13s
+memlimit 230M
+evaluator match_file
+sanity sanity
+
+# GROUP 0 Sample case
+samplecase sample
+
+# GROUP 10 Subtask 1
+testcase 01.1x1 1
+testcase 01.random1 1
+testcase 01.random2 1
+testcase 01.set-zero 1
+testcase 01.st-1-NoUpdate-0 1
+testcase 01.st-1-OnlyUpdate-0 1
+testcase 01.st-1-almostempty-0 1
+testcase 01.st-1-almostempty-2 1
+testcase 01.st-1-dense-3 1
+testcase 01.st-1-smallGCD-3 1
+testcase 01.st-1-special-2 1
+testcase sample 1
+
+# GROUP 27 Subtask 2
+testcase 01.1x1 1
+testcase 01.set-zero 1
+testcase 01.st-1-almostempty-0 1
+testcase 02.break_uq 1
+testcase 02.break_uq_v2 1
+testcase 02.random1 1
+testcase 02.st-2-OnlyUpdate-0 1
+testcase 02.st-2-almostempty-3 1
+testcase 02.st-2-dense-3 1
+testcase 02.st-2-smallGCD-3 1
+testcase sample 1
+
+# GROUP 26 Subtask 3
+testcase 01.1x1 1
+testcase 01.random1 1
+testcase 01.random2 1
+testcase 01.set-zero 1
+testcase 01.st-1-NoUpdate-0 1
+testcase 01.st-1-OnlyUpdate-0 1
+testcase 01.st-1-almostempty-0 1
+testcase 01.st-1-almostempty-2 1
+testcase 01.st-1-dense-3 1
+testcase 01.st-1-smallGCD-3 1
+testcase 01.st-1-special-2 1
+testcase 03.break_uq 1
+testcase 03.hos1 1
+testcase 03.hos3 1
+testcase 03.hos4 1
+testcase 03.hos5 1
+testcase 03.st-3-almostempty-3 1
+testcase 03.st-3-dense-3 1
+testcase 03.st-3-random-3 1
+testcase 03.st-3-smallGCD-2 1
+testcase sample 1
+
+# GROUP 17 Subtask 4
+testcase 01.1x1 1
+testcase 01.random1 1
+testcase 01.random2 1
+testcase 01.set-zero 1
+testcase 01.st-1-NoUpdate-0 1
+testcase 01.st-1-OnlyUpdate-0 1
+testcase 01.st-1-almostempty-0 1
+testcase 01.st-1-almostempty-2 1
+testcase 01.st-1-dense-3 1
+testcase 01.st-1-smallGCD-3 1
+testcase 01.st-1-special-2 1
+testcase 02.break_uq 1
+testcase 02.break_uq_v2 1
+testcase 02.random1 1
+testcase 02.st-2-OnlyUpdate-0 1
+testcase 02.st-2-almostempty-3 1
+testcase 02.st-2-dense-3 1
+testcase 02.st-2-smallGCD-3 1
+testcase 03.break_uq 1
+testcase 03.hos1 1
+testcase 03.hos3 1
+testcase 03.hos4 1
+testcase 03.hos5 1
+testcase 03.st-3-almostempty-3 1
+testcase 03.st-3-dense-3 1
+testcase 03.st-3-random-3 1
+testcase 03.st-3-smallGCD-2 1
+testcase 04.bad-for-kd 1
+testcase 04.break_uq 1
+testcase 04.hos1 1
+testcase 04.hos2 1
+testcase 04.hos3 1
+testcase 04.hos4 1
+testcase 04.hos5 1
+testcase 04.st-4-almostempty-3 1
+testcase 04.st-4-dense-3 1
+testcase 04.st-4-random-2 1
+testcase 04.st-4-smallGCD-4 1
+testcase 05.st-4-almostempty-3 1
+testcase sample 1
+
+# GROUP 20 Subtask 5
+testcase 01.1x1 1
+testcase 01.random1 1
+testcase 01.random2 1
+testcase 01.set-zero 1
+testcase 01.st-1-NoUpdate-0 1
+testcase 01.st-1-OnlyUpdate-0 1
+testcase 01.st-1-almostempty-0 1
+testcase 01.st-1-almostempty-2 1
+testcase 01.st-1-dense-3 1
+testcase 01.st-1-smallGCD-3 1
+testcase 01.st-1-special-2 1
+testcase 02.break_uq 1
+testcase 02.break_uq_v2 1
+testcase 02.random1 1
+testcase 02.st-2-OnlyUpdate-0 1
+testcase 02.st-2-almostempty-3 1
+testcase 02.st-2-dense-3 1
+testcase 02.st-2-smallGCD-3 1
+testcase 03.break_uq 1
+testcase 03.hos1 1
+testcase 03.hos3 1
+testcase 03.hos4 1
+testcase 03.hos5 1
+testcase 03.st-3-almostempty-3 1
+testcase 03.st-3-dense-3 1
+testcase 03.st-3-random-3 1
+testcase 03.st-3-smallGCD-2 1
+testcase 04.bad-for-kd 1
+testcase 04.break_uq 1
+testcase 04.hos1 1
+testcase 04.hos2 1
+testcase 04.hos3 1
+testcase 04.hos4 1
+testcase 04.hos5 1
+testcase 04.st-4-almostempty-3 1
+testcase 04.st-4-dense-3 1
+testcase 04.st-4-random-2 1
+testcase 04.st-4-smallGCD-4 1
+testcase 05.bad-for-kd 1
+testcase 05.break_uq 1
+testcase 05.hos1 1
+testcase 05.hos2 1
+testcase 05.hos3 1
+testcase 05.hos4 1
+testcase 05.st-4-almostempty-3 1
+testcase 05.st-4-dense-3 1
+testcase 05.st-4-random-1 1
+testcase 05.st-4-smallGCD-3 1
+testcase sample 1
+

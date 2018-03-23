@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1373404066 source:e:\systemfile\desktop\coding\c++\competitiveprogrammingtraining\ioi2013\game\game.cpp
+	"game.h"
+
+1520675360 e:\systemfile\desktop\coding\c++\competitiveprogrammingtraining\ioi2013\game\game.h
+	<bits/stdc++.h>
+
+1520673933 source:e:\systemfile\desktop\coding\c++\competitiveprogrammingtraining\ioi2013\game\untitled1.c
+	<stdio.h>
+	<stdlib.h>
+	"game.h"
+
+1520674548 source:e:\systemfile\desktop\coding\c++\competitiveprogrammingtraining\ioi2013\game\grader.c
+	<stdio.h>
+	<stdlib.h>
+	"game.h"
+
+1520900767 source:e:\systemfile\desktop\coding\c++\competitiveprogrammingtraining\ioi2013\game\main.cpp
+	<bits/stdc++.h>
+
